@@ -1,0 +1,94 @@
+1
+rook black 0 0
+1
+knight black 1 0
+1
+bishop black 2 0
+1
+queen black 3 0
+1
+king black 4 0
+1
+bishop black 5 0
+1
+knight black 6 0
+1
+rook black 7 0
+1
+pawn black 0 1
+1
+pawn black 1 1
+1
+pawn black 2 1
+0
+0
+1
+pawn black 5 1
+1
+pawn black 6 1
+1
+pawn black 7 1
+0
+0
+0
+0
+1
+pawn white 4 2
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+pawn white 0 6
+1
+pawn white 1 6
+0
+1
+pawn white 3 6
+1
+pawn white 4 6
+1
+pawn white 5 6
+1
+pawn white 6 6
+1
+pawn white 7 6
+1
+rook white 0 7
+1
+knight white 1 7
+1
+bishop white 2 7
+1
+queen white 3 7
+1
+king white 4 7
+1
+bishop white 5 7
+1
+knight white 6 7
+1
+rook white 7 7
