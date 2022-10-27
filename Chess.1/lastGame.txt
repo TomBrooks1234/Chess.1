@@ -18,10 +18,11 @@ rook black 7 0
 pawn black 0 1
 1
 pawn black 1 1
+0
 1
-pawn black 2 1
-0
-0
+pawn black 3 1
+1
+pawn black 4 1
 1
 pawn black 5 1
 1
@@ -32,21 +33,22 @@ pawn black 7 1
 0
 0
 0
+0
+0
+0
+0
+0
+0
 1
-pawn white 4 2
+pawn black 2 3
 0
 0
 0
 0
 0
 0
-0
-0
-0
-0
-0
-0
-0
+1
+pawn white 1 4
 0
 0
 0
@@ -63,9 +65,9 @@ pawn white 4 2
 0
 1
 pawn white 0 6
-1
-pawn white 1 6
 0
+1
+pawn white 2 6
 1
 pawn white 3 6
 1

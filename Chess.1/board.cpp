@@ -21,8 +21,8 @@ int bORw(int x, int y)
 
 board::board(SDL_Renderer* ren)
 {
-	black = IMG_LoadTexture(ren, "black.png");
-	white = IMG_LoadTexture(ren, "white.png");
+	black = IMG_LoadTexture(ren, "images/black.png");
+	white = IMG_LoadTexture(ren, "images/white.png");
 	renderer = ren;
 }
 

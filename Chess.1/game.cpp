@@ -218,39 +218,39 @@ void game::addPeices()
 
 	for (int x = 0; x < 8; x++)
 	{
-		bord[6][x] = new Pawn("W Pawn.png", renderer, "white", 6, x,"pawn");
+		bord[6][x] = new Pawn("images/W Pawn.png", renderer, "white", 6, x,"pawn");
 	}
-	bord[7][0] = new Rook("W Rook.png", renderer, "white", 7, 0, "rook");
-	bord[7][7] = new Rook("W Rook.png", renderer, "white", 7, 7, "rook");
+	bord[7][0] = new Rook("images/W Rook.png", renderer, "white", 7, 0, "rook");
+	bord[7][7] = new Rook("images/W Rook.png", renderer, "white", 7, 7, "rook");
 
-	bord[7][1] = new knight("W Knight.png",renderer,"white",7,1,"knight");
-	bord[7][6] = new knight("W Knight.png", renderer, "white", 7, 6, "knight");
+	bord[7][1] = new knight("images/W Knight.png",renderer,"white",7,1,"knight");
+	bord[7][6] = new knight("images/W Knight.png", renderer, "white", 7, 6, "knight");
 
-	bord[7][2] = new Bishop("W Bishop.png", renderer, "white", 7, 2, "bishop");
-	bord[7][5] = new Bishop("W Bishop.png", renderer, "white", 7, 5, "bishop");
+	bord[7][2] = new Bishop("images/W Bishop.png", renderer, "white", 7, 2, "bishop");
+	bord[7][5] = new Bishop("images/W Bishop.png", renderer, "white", 7, 5, "bishop");
 
-	bord[7][3] = new Queen("W Queen.png", renderer, "white", 7, 3, "queen");
+	bord[7][3] = new Queen("images/W Queen.png", renderer, "white", 7, 3, "queen");
 
-	bord[7][4] = new King("W King.png", renderer, "white", 7, 4, "king");
+	bord[7][4] = new King("images/W King.png", renderer, "white", 7, 4, "king");
 
 	//black peices 
 	for (int x = 0; x < 8; x++)
 	{
-		bord[1][x] = new Pawn("B Pawn.png", renderer, "black", 1, x,"pawn");
+		bord[1][x] = new Pawn("images/B Pawn.png", renderer, "black", 1, x,"pawn");
 	}
 
-	bord[0][0] = new Rook("B Rook.png", renderer, "black", 0, 0, "rook");
-	bord[0][7] = new Rook("B Rook.png", renderer, "black", 0, 7, "rook");
+	bord[0][0] = new Rook("images/B Rook.png", renderer, "black", 0, 0, "rook");
+	bord[0][7] = new Rook("images/B Rook.png", renderer, "black", 0, 7, "rook");
 
-	bord[0][1] = new knight("B Knight.png", renderer, "black", 0, 1, "knight");
-	bord[0][6] = new knight("B Knight.png", renderer, "black", 0,6, "knight");
+	bord[0][1] = new knight("images/B Knight.png", renderer, "black", 0, 1, "knight");
+	bord[0][6] = new knight("images/B Knight.png", renderer, "black", 0,6, "knight");
 
-	bord[0][2] = new Bishop("B Bishop.png", renderer, "black", 0, 2, "bishop");
-	bord[0][5] = new Bishop("B Bishop.png", renderer, "black", 0, 5, "bishop");
+	bord[0][2] = new Bishop("images/B Bishop.png", renderer, "black", 0, 2, "bishop");
+	bord[0][5] = new Bishop("images/B Bishop.png", renderer, "black", 0, 5, "bishop");
 
-	bord[0][3] = new Queen("B Queen.png", renderer, "black", 0, 3, "queen");
+	bord[0][3] = new Queen("images/B Queen.png", renderer, "black", 0, 3, "queen");
 
-	bord[0][4] = new King("B King.png", renderer, "black", 0, 4, "king");
+	bord[0][4] = new King("images/B King.png", renderer, "black", 0, 4, "king");
 
 }
 

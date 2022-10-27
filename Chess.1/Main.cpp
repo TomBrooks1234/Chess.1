@@ -5,7 +5,7 @@
 #include <iomanip> // only used to tidy up the console output here
 #undef main
 #include <string>
-#include"menu.cpp"
+//#include"menu.cpp"
 
 
 const int screenSize = 640;
